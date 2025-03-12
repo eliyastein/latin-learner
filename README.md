@@ -10,8 +10,6 @@
   ![React Native](https://img.shields.io/badge/React%20Native-0.76.7-blue)
   
   <p>A beautiful and intuitive mobile app for learning Latin phrases and their meanings</p>
-
-  <img src="https://via.placeholder.com/800x400?text=Latin+Learner+App" alt="Latin Learner App" width="600" />
   
 </div>
 
