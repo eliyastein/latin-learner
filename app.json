@@ -27,7 +27,8 @@
       "versionCode": 1
     },
     "web": {
-      "favicon": null
+      "favicon": null,
+      "enabled": false
     },
     "experiments": {
       "tsconfigPaths": true

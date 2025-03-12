@@ -10,28 +10,25 @@
     "clear": "expo start --clear",
     "android-clear": "expo start --clear --android",
     "ios-clear": "expo start --clear --ios",
-    "build:android": "eas build --platform android --profile preview --local --no-wait"
+    "build:android": "eas build --platform android --profile preview --local --no-wait",
+    "install:clean": "rm -rf node_modules && npm install --legacy-peer-deps",
+    "prebuild:cloud": "npm run install:clean && eas build --platform android --profile preview"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
-    "@expo/webpack-config": "~19.0.1",
-    "@react-native-async-storage/async-storage": "1.21.0",
-    "expo": "~52.0.0",
-    "expo-status-bar": "~1.11.1",
-    "react": "18.2.0",
+    "@react-native-async-storage/async-storage": "^1.23.0",
+    "expo": "^52.0.38",
+    "expo-dev-client": "~5.0.12",
+    "expo-status-bar": "^2.0.1",
+    "react": "^18.3.1",
     "react-dom": "18.2.0",
-    "react-native": "0.73.2",
-    "react-native-web": "~0.19.9",
-    "expo-dev-client": "~5.0.12"
+    "react-native": "^0.76.7",
+    "react-native-web": "~0.19.9"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
   "resolutions": {
-    "ws": "~7.4.6",
-    "@expo/webpack-config": "~18.1.3"
-  },
-  "overrides": {
-    "@expo/webpack-config": "~18.1.3"
+    "ws": "~7.4.6"
   }
 }
