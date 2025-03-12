@@ -1,0 +1,137 @@
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Node
+node_modules/
+npm-debug.*
+*.jsbundle
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.npm
+.node_repl_history
+.yarn-integrity
+
+# Expo
+.expo/
+web-build/
+dist/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# React Native
+.cxx/
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+ios/.xcode.env.local
+
+# Android
+build/
+captures/
+.gradle/
+local.properties
+*.iml
+*.apk
+*.aab
+*.ap_
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+android/**/GeneratedPluginRegistrant.*
+android/.project
+android/.settings
+android/.classpath
+
+# Native libraries
+*.so
+*.dylib
+
+# Environment variables and secrets
+.env*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+credentials.json
+secret.properties
+
+# IDE and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+.history
+.eslintcache
+*.tgz
+
+# Testing and coverage
+coverage/
+.nyc_output
+__tests__/**/coverage
+jest-report/
+junit.xml
+
+# EAS
+.eas/
+
+# Generated files
+*.log
+logs/
+tmp/
+temp/
+.vercel
+.now
+
+# CocoaPods
+/ios/Pods/
+/vendor/bundle/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Ignore files created by development server
+.metro/
+.metro-health-check*
+
+# Watchman
+.watchmanconfig

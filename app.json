@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Latin Learner",
+    "slug": "latin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": null,
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": null,
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.latinapp.latinlearner"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": null,
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.latinapp.latinlearner",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": null
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "newArchEnabled": false,
+    "extra": {
+      "eas": {
+        "projectId": "26f67fa1-8c88-4127-b3d2-24a2bff33054"
+      }
+    }
+  }
+}
